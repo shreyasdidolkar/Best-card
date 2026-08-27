@@ -1,0 +1,81 @@
+.app {
+  text-align: center;
+}
+
+.app h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+
+.app p {
+  font-size: 20px;
+  color: #6b5b73;
+  margin-bottom: 30px;
+}
+
+/* 3 cards ko horizontal karega */
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Card ka content vertical rahega */
+.card {
+  width: 220px;
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px #999;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.emoji {
+  font-size: 80px;
+  padding: 20px;
+  background: #f3e8ff;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.card h2 {
+  color: #7c3aed;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #16a34a;
+  font-size: 22px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.quantity button {
+  border: none;
+  background: #7c3aed;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.quantity button:hover {
+  background: #5b21b6;
+}
+
+.quantity span {
+  font-size: 20px;
+  font-weight: bold;
+}
