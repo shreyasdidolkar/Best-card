@@ -13,7 +13,7 @@
   margin-bottom: 30px;
 }
 
-/* 3 cards ko horizontal karega */
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@
   flex-wrap: wrap;
 }
 
-/* Card ka content vertical rahega */
+
 .card {
   width: 220px;
   padding: 25px;
@@ -35,7 +35,7 @@
 }
 
 .emoji {
-  font-size: 80px;
+  font-size: 60px;
   padding: 20px;
   background: #f3e8ff;
   border-radius: 12px;
@@ -44,8 +44,8 @@
 
 .card h2 {
   color: #7c3aed;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin-top: 10;
+  margin-bottom: 20px;
 }
 
 .card h3 {
@@ -63,7 +63,7 @@
 
 .quantity button {
   border: none;
-  background: #7c3aed;
+  background: wheat;
   color: white;
   padding: 10px;
   border-radius: 8px;
@@ -72,7 +72,7 @@
 }
 
 .quantity button:hover {
-  background: #5b21b6;
+  background:wheat;
 }
 
 .quantity span {

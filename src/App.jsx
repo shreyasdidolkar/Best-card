@@ -11,19 +11,19 @@ function App() {
         <Card
           emoji="💻"
           name="Laptop"
-          price="50,000"
+          price={50000}
         />
 
         <Card
           emoji="📱"
           name="Mobile"
-          price="20,000"
+          price={20000}
         />
 
         <Card
           emoji="🎧"
           name="Headphones"
-          price="2,000"
+          price={2000}
         />
       </div>
     </div>
